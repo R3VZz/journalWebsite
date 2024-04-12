@@ -5,13 +5,7 @@
 /* to select class use the . follow by identifier */
 /* select multiple elements by separating identifier with a , */
 
-/* body {
-    background: linear-gradient(#212121, #303030);
-} */
-
 body {
-    /* border: solid white 2px; */
-    /* background: linear-gradient(#5a5cf7, #0c1ff5); */
     background-image: url(./images/Andromeda.jpg);
     backdrop-filter: blur(100px);
 }
@@ -21,10 +15,11 @@ body {
     display: flex;
     justify-content: start;
     background: linear-gradient(#5a5cf7, #0c1ff5);
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .navbarContainer > .homeButton {
-    /* border: solid rgb(255, 255, 255) 2px; */
     display: flex;
 }
 
@@ -40,15 +35,17 @@ body {
     background: linear-gradient(#5a5cf7, #0c1ff5);
 }
 
+.navbarContainer > .homeButton > a:hover {
+    filter: drop-shadow(3px 3px 3px rgb(31, 31, 31));
+}
+
 .navbarContainer > nav {
-    /* border: solid rgb(255, 255, 255) 2px; */
     width: 80%;
     display: flex;
     justify-content: space-around;
 }
 
 .navbarContainer > nav > a {
-    /* border: solid rgb(255, 255, 255) 2px; */
     color: white;
     font-family: Pixelify Sans;
     font-weight: 100;
@@ -58,6 +55,10 @@ body {
     border: solid white 2px;
     margin: 5px;
     background: linear-gradient(#5a5cf7, #0c1ff5);
+}
+
+.navbarContainer > nav > a:hover {
+    filter: drop-shadow(3px 3px 3px rgb(31, 31, 31));
 }
 
 h1, h2 {
@@ -71,12 +72,15 @@ h1, h2 {
 .aboutContainer {
     border: solid rgb(255, 255, 255) 2px;
     background: linear-gradient(#5a5cf7, #0c1ff5);
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .aboutContainer > .content {
-    /* border: solid rgb(255, 255, 255) 2px; */
     display: flex;
     justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .aboutContainer > .content > .text {
@@ -91,6 +95,7 @@ h1, h2 {
     font-weight: 300;
     color: white;
     width: 80%;
+    margin: 10px;
 }
 
 .aboutContainer > .content > img {
@@ -101,12 +106,15 @@ h1, h2 {
 .weekOneContainer {
     border: solid white 2px;
     background: linear-gradient(#5a5cf7, #0c1ff5);
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .weekOneContainer > .content {
-    /* border: solid white 2px; */
     display: flex;
     justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .weekOneContainer > .content > .text {
@@ -121,6 +129,7 @@ h1, h2 {
     font-weight: 300;
     color: white;
     width: 80%;
+    margin: 10px;
 }
 
 .weekOneContainer > .content > img {
@@ -131,12 +140,15 @@ h1, h2 {
 .weekTwoContainer {
     border: solid white 2px;
     background: linear-gradient(#5a5cf7, #0c1ff5);
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .weekTwoContainer > .content {
-    /* border: solid white 2px; */
     display: flex;
     justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .weekTwoContainer > .content > .text {
@@ -151,6 +163,7 @@ h1, h2 {
     font-weight: 300;
     color: white;
     width: 80%;
+    margin: 10px;
 }
 
 .weekTwoContainer > .content > img {
@@ -161,12 +174,15 @@ h1, h2 {
 .weekThreeContainer {
     border: solid white 2px;
     background: linear-gradient(#5a5cf7, #0c1ff5);
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .weekThreeContainer > .content {
-    /* border: solid white 2px; */
     display: flex;
     justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .weekThreeContainer > .content > .text {
@@ -181,6 +197,7 @@ h1, h2 {
     font-weight: 300;
     color: white;
     width: 80%;
+    margin: 10px;
 }
 
 .weekThreeContainer > .content > img {
@@ -193,7 +210,8 @@ footer {
     background: linear-gradient(#5a5cf7, #0c1ff5);
     display: flex;
     justify-content: start;
-    /* justify-content: space-between; */
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 footer > p {
@@ -206,4 +224,8 @@ footer > a > img {
     width: 50px;
     padding: 5px;
     margin: 2px;
+}
+
+footer > a > img:hover {
+    filter: drop-shadow(5px 5px 5px rgb(31, 31, 31));
 }
