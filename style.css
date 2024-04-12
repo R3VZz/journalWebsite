@@ -11,14 +11,16 @@
 
 body {
     /* border: solid white 2px; */
-    background: linear-gradient(#5a5cf7, #0c1ff5);
+    /* background: linear-gradient(#5a5cf7, #0c1ff5); */
+    background-image: url(./images/Andromeda.jpg);
+    backdrop-filter: blur(100px);
 }
 
 .navbarContainer {
     border: solid rgb(255, 255, 255) 2px;
     display: flex;
     justify-content: start;
-    
+    background: linear-gradient(#5a5cf7, #0c1ff5);
 }
 
 .navbarContainer > .homeButton {
@@ -30,14 +32,19 @@ body {
     color: white;
     font-family: Pixelify Sans;
     font-weight: 100;
+    font-size: 30px;
     text-decoration: none;
+    padding: 2px;
+    border: solid white 2px;
+    margin: 5px;
+    background: linear-gradient(#5a5cf7, #0c1ff5);
 }
 
 .navbarContainer > nav {
     /* border: solid rgb(255, 255, 255) 2px; */
     width: 80%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .navbarContainer > nav > a {
@@ -45,7 +52,12 @@ body {
     color: white;
     font-family: Pixelify Sans;
     font-weight: 100;
+    font-size: 30px;
     text-decoration: none;
+    padding: 2px;
+    border: solid white 2px;
+    margin: 5px;
+    background: linear-gradient(#5a5cf7, #0c1ff5);
 }
 
 h1, h2 {
@@ -53,10 +65,12 @@ h1, h2 {
     font-family: Pixelify Sans;
     font-weight: 100;
     text-decoration: underline;
+    margin: 8px;
 }
 
 .aboutContainer {
     border: solid rgb(255, 255, 255) 2px;
+    background: linear-gradient(#5a5cf7, #0c1ff5);
 }
 
 .aboutContainer > .content {
@@ -65,11 +79,18 @@ h1, h2 {
     justify-content: center;
 }
 
-.aboutContainer > .content > p {
+.aboutContainer > .content > .text {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 70%;
+}
+
+.aboutContainer > .content > .text > p {
     font-family: Arial;
     font-weight: 300;
     color: white;
-    width: 70%;
+    width: 80%;
 }
 
 .aboutContainer > .content > img {
@@ -79,6 +100,7 @@ h1, h2 {
 
 .weekOneContainer {
     border: solid white 2px;
+    background: linear-gradient(#5a5cf7, #0c1ff5);
 }
 
 .weekOneContainer > .content {
@@ -87,22 +109,101 @@ h1, h2 {
     justify-content: center;
 }
 
-.weekOneContainer > .content > p {
+.weekOneContainer > .content > .text {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 70%;
+}
+
+.weekOneContainer > .content > .text > p {
     font-family: Arial;
     font-weight: 300;
     color: white;
+    width: 80%;
+}
+
+.weekOneContainer > .content > img {
+    width: 30%;
+    border: solid rgb(255, 255, 255) 2px;
+}
+
+.weekTwoContainer {
+    border: solid white 2px;
+    background: linear-gradient(#5a5cf7, #0c1ff5);
+}
+
+.weekTwoContainer > .content {
+    /* border: solid white 2px; */
+    display: flex;
+    justify-content: center;
+}
+
+.weekTwoContainer > .content > .text {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
     width: 70%;
 }
-.weekOneContainer > .content > img {
+
+.weekTwoContainer > .content > .text > p {
+    font-family: Arial;
+    font-weight: 300;
+    color: white;
+    width: 80%;
+}
+
+.weekTwoContainer > .content > img {
+    width: 30%;
+    border: solid rgb(255, 255, 255) 2px;
+}
+
+.weekThreeContainer {
+    border: solid white 2px;
+    background: linear-gradient(#5a5cf7, #0c1ff5);
+}
+
+.weekThreeContainer > .content {
+    /* border: solid white 2px; */
+    display: flex;
+    justify-content: center;
+}
+
+.weekThreeContainer > .content > .text {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 70%;
+}
+
+.weekThreeContainer > .content > .text > p {
+    font-family: Arial;
+    font-weight: 300;
+    color: white;
+    width: 80%;
+}
+
+.weekThreeContainer > .content > img {
     width: 30%;
     border: solid rgb(255, 255, 255) 2px;
 }
 
 footer {
     border: solid rgb(255, 255, 255) 2px;
+    background: linear-gradient(#5a5cf7, #0c1ff5);
+    display: flex;
+    justify-content: start;
+    /* justify-content: space-between; */
 }
 
-footer > a {
+footer > p {
     color: white;
     text-decoration: none;
+    padding: 5px;
+}
+
+footer > a > img {
+    width: 50px;
+    padding: 5px;
+    margin: 2px;
 }
