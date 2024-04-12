@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+/* Use  -  Pixelify Sans  -  to target font */
+
+/* to select id use the # followed by identifier */
+/* to select class use the . follow by identifier */
+/* select multiple elements by separating identifier with a , */
+
+/* body {
+    background: linear-gradient(#212121, #303030);
+} */
+
+body {
+    /* border: solid white 2px; */
+    background: linear-gradient(#5a5cf7, #0c1ff5);
+}
+
+.navbarContainer {
+    border: solid rgb(255, 255, 255) 2px;
+    display: flex;
+    justify-content: start;
+    
+}
+
+.navbarContainer > .homeButton {
+    /* border: solid rgb(255, 255, 255) 2px; */
+    display: flex;
+}
+
+.navbarContainer > .homeButton > a {
+    color: white;
+    font-family: Pixelify Sans;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.navbarContainer > nav {
+    /* border: solid rgb(255, 255, 255) 2px; */
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbarContainer > nav > a {
+    /* border: solid rgb(255, 255, 255) 2px; */
+    color: white;
+    font-family: Pixelify Sans;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: white;
+    font-family: Pixelify Sans;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+.aboutContainer {
+    border: solid rgb(255, 255, 255) 2px;
+}
+
+.aboutContainer > .content {
+    /* border: solid rgb(255, 255, 255) 2px; */
+    display: flex;
+    justify-content: center;
+}
+
+.aboutContainer > .content > p {
+    font-family: Arial;
+    font-weight: 300;
+    color: white;
+    width: 70%;
+}
+
+.aboutContainer > .content > img {
+    width: 30%;
+    border: solid rgb(255, 255, 255) 2px;
+}
+
+.weekOneContainer {
+    border: solid white 2px;
+}
+
+.weekOneContainer > .content {
+    /* border: solid white 2px; */
+    display: flex;
+    justify-content: center;
+}
+
+.weekOneContainer > .content > p {
+    font-family: Arial;
+    font-weight: 300;
+    color: white;
+    width: 70%;
+}
+.weekOneContainer > .content > img {
+    width: 30%;
+    border: solid rgb(255, 255, 255) 2px;
+}
+
+footer {
+    border: solid rgb(255, 255, 255) 2px;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+}

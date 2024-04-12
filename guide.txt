@@ -1,0 +1,13 @@
+Week 1 JavaScript
+-console.log() - output to console
+-Math.random - access Math library 
+    and use methods using dot notation
+-Variables - use let, const, var to assign
+-arrays - lists of values
+-Functions - break up and reuse code/logic
+ifElse - use logic to determine results
+loops - for and while loops to repeat tasks
+
+Week 2 HTML/CSS and SQL
+-HTML attributes and elements
+- introduction to SQL
