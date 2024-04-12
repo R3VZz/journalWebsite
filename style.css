@@ -210,12 +210,14 @@ footer {
     background: linear-gradient(#5a5cf7, #0c1ff5);
     display: flex;
     justify-content: start;
-    margin-top: 5px;
+    margin-top: 50px;
     margin-bottom: 5px;
 }
 
 footer > p {
     color: white;
+    font-family: Pixelify Sans;
+    font-weight: 100;
     text-decoration: none;
     padding: 5px;
 }
